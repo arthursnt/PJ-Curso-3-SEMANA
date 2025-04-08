@@ -1,0 +1,20 @@
+.corpo{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabeça {
+    background-color: #333;
+    padding: 10px 0;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu a{
+    color: white;
+    padding: 14px 20px;
+    transition: background 0.3s;
+}
+.menu a:hover {
+    background-color: blueviolet;
+}
