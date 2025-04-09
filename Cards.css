@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(0, 102, 255);
+    overflow: hidden;
+    width: 250px;
+    transition: transform 0.3s;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card-content{
+    padding: 15px;
+    text-align: center;
+}
+.card-content h3{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.card-content p{
+    color: black;
+    font-size: 14px;
+}
+.button{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.button:hover{
+    background-color: rgb(0, 47, 255);
+}
