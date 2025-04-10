@@ -11,7 +11,7 @@ body{
     display: flex;
     gap: 20px;
 }
-.card{
+.card-1{
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 0 15px rgb(0, 102, 255);
@@ -19,23 +19,23 @@ body{
     width: 250px;
     transition: transform 0.3s;
 }
-.card:hover{
+.card-1:hover{
     transform: translateY(-10px);
 }
-.card-content{
+.card-content-1{
     padding: 15px;
     text-align: center;
 }
-.card-content h3{
+.card-content-1 h3{
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
-.card-content p{
+.card-content-1 p{
     color: black;
     font-size: 14px;
 }
-.button{
+.button1{
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
@@ -45,6 +45,104 @@ body{
     border-radius: 5px;
     transition: background-color 0.3s;
 }
-.button:hover{
+.button1:hover{
     background-color: rgb(0, 47, 255);
+}
+.card-2{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(0, 102, 255);
+    overflow: hidden;
+    width: 250px;
+    transition: transform 0.3s;
+}
+.card-2:hover{
+    transform: translateY(-10px);
+}
+.card-content-2{
+    padding: 15px;
+    text-align: center;
+}
+.card-content-2 h3{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.card-content-2 p{
+    color: black;
+    font-size: 14px;
+}
+.button2{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.button2:hover{
+    background-color: rgb(0, 47, 255);
+}
+.card-3{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(0, 102, 255);
+    overflow: hidden;
+    width: 250px;
+    transition: transform 0.3s;
+}
+.card-3:hover{
+    transform: translateY(-10px);
+}
+.card-content-3{
+    padding: 15px;
+    text-align: center;
+}
+.card-content-3 h3{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.card-content-3 p{
+    color: black;
+    font-size: 14px;
+}
+.button3{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.button3:hover{
+    background-color: rgb(0, 47, 255);
+}
+.img1{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-1:not(:hover){
+    opacity: 0.6;
+}
+.img2{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-2:not(:hover){
+    opacity: 0.6;
+}
+.img3{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-3:not(:hover){
+    opacity: 0.6;
 }
