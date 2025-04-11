@@ -1,0 +1,71 @@
+.corpo{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    background-color: black;
+    padding: 10px 0;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu a{
+    color: white;
+    padding: 14px 20px;
+    transition: background-color 0.3s;
+}
+.menu a:hover {
+    background-color: #333;
+}
+.ini-section{
+    text-align: center;
+    color: black;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.ini-section h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ini-section p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+.button:hover{
+    background-color: #333;
+}
+.sobre-section{
+    background-color: black;
+    padding: 50px 20px;
+    text-align: center;
+}
+.sobre-section h2{
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sobre-section p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
