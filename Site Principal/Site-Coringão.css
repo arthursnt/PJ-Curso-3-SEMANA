@@ -18,6 +18,8 @@
 .menu a:hover {
     background-color: #333;
 }
+
+
 .ini-section{
     text-align: center;
     color: black;
@@ -68,4 +70,105 @@
     max-width: 800px;
     margin: 0 auto 20px auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#conta{
+    background-color: white;
+    text-align: center;
+}
+#conta h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#planos{
+    background-color: black;
+    text-align: center;
+    padding: 50px 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    width: 270px;
+    box-shadow: 0 4px 8px #333;
+    transition: transform 0.5s;
+    margin-top: 20px;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px #333;
+}
+.card h3{
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+.card p{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.preco{
+    font-weight: bold;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#planos h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#contato{
+    background-color: white;
+    color: black;
+    padding: 50px 20px;
+    text-align: center;
+}
+#contato h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contato-form{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+.contato-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+.contato-form input, .contato-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 
+}
+.contato-form button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contato-form button:hover{
+    background-color: #333;
 }

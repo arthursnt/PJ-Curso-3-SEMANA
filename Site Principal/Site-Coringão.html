@@ -9,10 +9,10 @@
 <body class="corpo">
     <header class="head">
         <nav class="menu">
-            <a href="#">Início</a>
-            <a href="#">Sobre</a>
-            <a href="#">Criar Conta</a>
-            <a href="#">Contato</a>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#conta">Criar Conta</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
     <section id="inicio" class="ini-section">
@@ -25,6 +25,62 @@
         <h2>Sobre Nós</h2>
         <p>Um site totalmente dedicada ao Sport Club Corinthians Paulista, com informções de toda
         a história do Timão, e notícias atuais também!</p>
+    </section>
+    <section id="conta">
+        <h2>Crie sua Conta!</h2>
+        <form action="" method="">
+            <label for="nome">Nome</label>
+            <input type="text" placeholder="Escreva seu nome">
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="Escreva seu email">
+
+            <label for="Data de Nascimento">Data de Nascimento</label>
+            <input type="date">
+
+            <label for="senha">Senha</label>
+            <input type="password" placeholder="Escreva uma senha">   
+
+            <button type="submit">Criar Conta</button>             
+        </form>
+    </section>
+    <section id="planos">
+        <h2>Planos de Torcedor!</h2>
+        <div class="cards">
+            <div class="card">
+            <h3>Plano Fiel Torcedor</h3s>
+            <p>Um plano Basíco com acesso á Videos de Treino, Pré e Pós-Jogo!</p>
+            <a href="" class="preco">R$4,99</a>
+            </div>
+            <div class="card">
+                <h3>Plano Fiel Torcedor Plus</h3s>
+                <p>Um Plano Plus com os mesmo benefícios do Plano Fiel Torcedor e
+                    também acesso a comentários do Treinadores!</p>
+                <a href="" class="preco">R$14,99</a>
+            </div>
+            <div class="card">
+                <h3>Plano Fiel Torcedor Premium</h3s>
+                <p>Um Plano Premium com com os mesmo benefícios do Plano Fiel Premium e
+                    também acesso a Produtos Exclusivos aos assinantes do Plano!</p>
+                <a href="" class="preco">R$29,99</a>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <h2>Entre em Contato!</h2>
+        <p>Preencha o formulário abaixo caso queira entrar em contato conosco</p>
+        <form class="contato-form">
+            <label for="nome">Nome:</label>
+            <br> <input type="text" placeholder="Escreva seu nome" required>
+
+            <br> <label for="email">Email:</label>
+            <br> <input type="email" placeholder="Escreva seu email" required>
+
+            <br> <label for="mensagem">Mensagem:</label>
+            <br> <textarea rows="5" placeholder="Escreva uma mensagem" required></textarea>
+
+            <br> <button type="submit">Enviar</button>
+        </form>
     </section>
 </body>
 </html>
